@@ -1,9 +1,8 @@
-import nb_build, time
+import nb_build
 from nb_preprocessing import *
 from nb_evaluation import *
 
 
-start = time.time()
 '''Importing dataset and remove headers'''
 data = open_csv_file(r'C:\Users\stalk\PycharmProjects\NBClassifier\store_data.csv')
 data = prob_round(str_to_float(delete_col(data, 1)))
