@@ -1,6 +1,10 @@
 # Mail promotion campaign
 ## Business lab for the Machine Learning course
 
-Sample datasets are <a href="https://drive.google.com/drive/folders/1uG_ETcPIx2TOV-lopEwRQo6Bp4SvEFzQ?usp=sharing">here</a>.
+1. Run dtree_postprune_test.py to build decision tree.  
+2. Run nb_test.py to build naive bayes.  
 
-The description of the lab is <a href="https://docs.google.com/document/d/1Nf588XZQmRDeexIxMJ-SjHVwDB9HXznMPe-iWdLz1go/edit?usp=sharing">here</a>.
+-pre_prune.jpg is the decision tree built with pre-pruning parameters.  
+-post_prune.jpg is the decision tree after post-pruning.  
+-store_data_numerical.csv is the data file for decision tree classifier.  
+-store_data.csv is the data file for naive bayes classifier.  
